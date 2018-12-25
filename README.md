@@ -1,0 +1,1 @@
+This template contains redux module, react-redux module and redux-action module.
