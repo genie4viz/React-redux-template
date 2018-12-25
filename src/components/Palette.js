@@ -19,7 +19,7 @@ const Palette = ({ selected, onSelect }) => {
       <h2>Selecting colors</h2>
       <div className="colors">
         {colors.map(color => (
-          <PaletteItem color={color} key={color} active={selected === color} />
+          <PaletteItem color={color} key={color} active={selected === color} onClick={() => onSelect(color)}/>
         ))}
       </div>
     </div>
